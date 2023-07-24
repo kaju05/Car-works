@@ -1,0 +1,31 @@
+.courses {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 7vh;
+  background-color: black;
+}
+
+.card {
+  flex: 1;
+  border: 1px solid #ccc;
+  max-width: 22rem;
+  height: fit-content;
+}
+img{
+    height: 25vh;
+    
+}
+a{
+  color: azure;
+  
+}
+section{
+  background-color: black;
+}
+.back{
+  background-color: black;
+  padding: 1vw;
+}
+.btn{
+  margin: 2vw;
+}

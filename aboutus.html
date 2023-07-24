@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Works Website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="aboutus.css">
+</head>
+<body>
+    <header class="bg-dark text-white text-center py-3" style="background-color: black;">
+        <h1 style="background-color: black;">Car Works</h1>
+    </header>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+    <img src="data:image/jpeg;base64,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" alt="Car Works Logo" width="100" height="80" class="d-inline-block align-top">
+  </a>
+  <a class="navbar-brand" href="articles.html">Articles</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About us</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Courses
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="freecourses.html">Free courses</a>
+          <a class="dropdown-item" href="paidcourses.html">Paid courses</a>
+          
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="offlinelearning.html">Offline learning</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Projects
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Electric Cars</a>
+          <a class="dropdown-item" href="#">Sport Cars</a>
+          <a class="dropdown-item" href="#">Disel Cars</a>
+          <a class="dropdown-item" href="#">Sedan</a>
+          <a class="dropdown-item" href="#">SUVs</a>
+        </div>
+      </li>
+      
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+   <main>
+    <section class="about">
+      <div class="container" style="border: 2px solid white;">
+        <h1>About Us</h1>
+        <img src="https://plus.unsplash.com/premium_photo-1682144916033-64ed1bd232ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwzMzI1OTg4Mnx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60" alt="About Us Image" style="height: 40vh;width: 40vw;">
+        <br><br>
+        <p>
+          Welcome to Car Working Tutorials, a leading company in the automotive education industry! Our rich history spans over two decades of dedication to providing top-notch car working tutorials and courses.
+
+It all began in 2001 when our visionary founder, John Anderson, a skilled automotive engineer, recognized the need for accessible and comprehensive learning resources for aspiring car enthusiasts and professional mechanics alike. Fueled by his passion for automobiles and teaching, he set out on a mission to bridge the knowledge gap and empower individuals with in-depth insights into the functioning of cars.
+
+Over the years, Car Working Tutorials has evolved and grown, constantly adapting to the ever-changing automotive landscape. Our team of expert instructors, comprising automotive engineers, industry professionals, and technical specialists, work tirelessly to develop courses that cover a wide spectrum of car models and systems. We take pride in staying up-to-date with the latest advancements in automotive technology to deliver relevant and cutting-edge content.
+
+Through the years, we've garnered a global community of learners who have benefitted from our courses to pursue careers in the automotive industry, enhance their DIY car repair skills, or simply satiate their curiosity about how cars work. Our commitment to excellence and customer satisfaction has earned us accolades, and we cherish the success stories of our students who have gone on to achieve greatness in their automotive endeavors.
+
+As we look ahead, we remain dedicated to our founding principles of knowledge-sharing and fostering a deep appreciation for the intricacies of cars. Our journey continues, and we are excited to embark on new ventures, embracing technological innovations to make learning even more accessible and engaging.
+
+Join us at Car Working Tutorials as we celebrate our history and look forward to a future filled with boundless possibilities in the dynamic world of automotive education. Together, let's unlock the mysteries of car mechanics and drive towards a brighter, more informed automotive community.
+        </p>
+      </div>
+    </section>
+<section class="alumini">
+        <h1 style="margin: 2vw;">Our notable Alumnis</h1>
+        <br><br>
+        <section class="aluminisec">
+<div class="card" style="width: 15rem; height: 25em;">
+  <img src="https://images.unsplash.com/photo-1534637950656-9e6753b6da6b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHBlcnNvbiUyMG1lY2hhbmljfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Julia Bergen
+        <br>
+        She is an American country music singer. She was known as a unique, award-winning yodeling "Texas country music legend."
+    </p>
+  </div>
+</div>
+            <div class="card" style="width: 15rem;height: 25em;">
+  <img src="https://plus.unsplash.com/premium_photo-1670650046702-86c1d25a845e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGVyc29uJTIwbWVjaGFuaWN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">
+        Smokey Yunik 
+    <br>
+    Henry "Smokey" Yunick is an American mechanic and car designer associated with motorsports.</p>
+  </div>
+</div>
+            <div class="card" style="width: 15rem;height: 25em;">
+  <img src="https://plus.unsplash.com/premium_photo-1677009540609-cd6208fc7cdb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHBlcnNvbiUyMG1lY2hhbmljfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">
+        Bernard Juchli <br>
+        many recognize this name as the head mechanic at Jay Leno’s Big Dog Garage also the champion in the CPL Systems
+    </p>
+  </div>
+</div>
+       
+</section>
+        <section class="aluminisec">
+            <div class="card" style="width: 15rem; height: 25em;">
+  <img src="https://images.unsplash.com/photo-1517524206127-48bbd363f3d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGVyc29uJTIwbWVjaGFuaWN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">
+        Jesse James <br>
+        Featured on his show Monster Garage on Discovery Channel and Jesse James is a Dead Man on Spike TV.
+    </p>
+  </div>
+</div>
+            <div class="card" style="width: 15rem;height: 25em;">
+  <img src="https://images.unsplash.com/photo-1527907440866-d9ccd3e05491?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBlcnNvbiUyMG1lY2hhbmljfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">
+        Jay Leno <br>
+        Jay doesn’t just own well over a hundred vehicles, he also has the know-how to work on them himself. 
+    </p>
+  </div>
+</div>
+            <div class="card" style="width: 15rem;height: 25em;">
+  <img src="https://plus.unsplash.com/premium_photo-1661371847464-0dfa16cb2d8e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHBlcnNvbiUyMG1lY2hhbmljfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">
+         Tim Taylor <br>
+         Tim Taylor (Tim Allen) is the host of “Tool Time,” a home improvement show.
+    </p>
+  </div>
+</div>
+       
+</section>
+        
+  </main>
+
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>&copy; 2023 Car Works. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

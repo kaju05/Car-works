@@ -1,0 +1,21 @@
+.courses {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 7vh;
+  background-color: black;
+}
+
+.card {
+  flex: 1;
+  border: 1px solid #ccc;
+  max-width: 22rem;
+  height: fit-content;
+  font-size: large;
+}
+img{
+    height: 40vh;
+    
+}
+body{
+    background-color: black;
+}

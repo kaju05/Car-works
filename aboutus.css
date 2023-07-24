@@ -1,0 +1,63 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0vw;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: white;
+  background-color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 10px 0;
+}
+
+main {
+  padding: 20px 0;
+}
+
+.about {
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+.aluminisec {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 15rem;
+  height: 20em;
+  margin-bottom: 1rem;
+  color: #333;
+}
+.card-img-top{
+    height: 25vh;
+    width: 16vw;
+}
