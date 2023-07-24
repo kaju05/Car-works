@@ -1,0 +1,125 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+nav {
+    
+    padding: 5px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+
+}
+
+main {
+    padding: 20px;
+    color: #fff;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.Testimony{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+.Testimony>div{
+    margin: 2vw;
+    width: 30vw;
+    
+    
+}
+.blockquote-footer{
+    color: white;
+
+    
+}
+
+.expertise{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5vw;
+}
+.expertise>div>img{
+    height: 30vh;
+}
+
+.video-section {
+    position: relative;
+    min-height: 100vh; 
+    overflow: hidden;
+    background-color: #333;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    background-color: black;
+   
+    
+}
+.card-img-top{
+    width: 18em;
+}
+
+.video-container >video {
+    width: 100%;
+    height: 100%; 
+    border-radius: 2vw;
+}
+
+
+.card{
+    color: black;
+    
+}
+.btn>a{
+    color: #fff;
+    margin: 5vw;
+}
+.btn{
+    margin-top: 3vw;
+}
+.proj>img{
+    width: 30vw;
+    height: 40vh;
+    border-radius: 2vw;
+    margin: 2vw;
+}
+.proj>video{
+    width: 30vw;
+    height: 40vh;
+    border-radius: 2vw;
+    margin: 2vw;
+}
